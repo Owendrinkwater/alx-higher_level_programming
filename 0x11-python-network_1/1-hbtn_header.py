@@ -17,4 +17,4 @@ if __name__ == "__main__":
         headers = response.info()
 
         # Print the X-Request-Id value from the headers
-        print(headers.get("X-Request-Id"))                                                
+        print(headers.get("X-Request-Id"))
